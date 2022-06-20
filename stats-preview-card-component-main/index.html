@@ -118,8 +118,60 @@
       top: 0;
       /* background-color: rgba(170, 92, 219, 0.856) ; */
       background: linear-gradient(rgba(170, 92, 219, 0.803),rgba(170, 92, 219, 0.638)),url("images/image-header-desktop.jpg");
+      background-position: right;
+      background-size: cover;
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
+    }
+    @media screen and (max-width: 1180px) {
+      .text-box{
+        padding: 40px 40px;
+      }
+      .Heading-primary{
+        font-size: 20px;
+      }
+      .para{
+        font-size: 11px;
+      }
+      .heading-num{
+        font-size: 17px;
+        margin-right: 20%;
+        text-align: center;
+        display: block;
+      }
+    }
+    @media screen and (max-width: 870px) {
+      .main-card {
+        top: 40%;
+        
+      }
+      .img{
+        width: 100%;
+        height: 40%;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 8px;
+        background-position: top;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .text-box{
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        /* text-align: center; */
+        margin-top: 300px;
+        margin-left: 20px;
+      }
+      .heading-primary-main{
+        display: inline;
+      }
+      .para{
+        width: 90%;
+      }
+      .attribution{
+        position: relative;
+        bottom: 10px;
+      }
     }
   </style>
 </head>
